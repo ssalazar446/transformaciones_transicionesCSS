@@ -1,0 +1,7 @@
+@charset "UTF-8";
+div::before { /* con este pseudo elemento se puede colocar contenido antes de la etiqueta seleccionada */
+  content: ":)";
+}
+div::after { /* con este pseudo elemento se puede colocar contenido después de la etiqueta seleccionada */
+  content: ":(";
+}/*# sourceMappingURL=pseudo-elements.css.map */

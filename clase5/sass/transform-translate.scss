@@ -1,0 +1,15 @@
+.shadow{
+    background: lightgray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.circle{
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    &:hover{
+        transform: translate(-20px, 20px) ;
+    }
+}

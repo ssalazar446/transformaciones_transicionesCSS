@@ -1,0 +1,21 @@
+a{
+    &:link{
+        color: hotpink;
+    }
+    &:visited {
+        color: tomato;
+    }
+    &:hover{
+        background-color: palegoldenrod;
+    }
+}
+p{
+    &:not(.maravillas){ /* :not() = todas las clases que no tengan .maravillas */
+        color: lightsalmon;
+    }
+}
+div.container{
+    & div:nth-child(1){
+        color: lightseagreen;
+    }
+}
