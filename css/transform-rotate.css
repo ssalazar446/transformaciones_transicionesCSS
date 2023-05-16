@@ -1,0 +1,9 @@
+.circle {
+  background: lightblue;
+  width: 150px;
+  height: 100px;
+  border-radius: 50%;
+}
+.circle:hover {
+  transform: rotate(20deg); /* eje x y Y */
+}/*# sourceMappingURL=transform-rotate.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sources":["../clase5/sass/transform-translate.scss","transform-translate.css"],"names":[],"mappings":"AAAA;EACI,qBAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;ACCJ;;ADCA;EACI,qBAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;ACEJ;ADDI;EACI,iCAAA;ACGR","file":"transform-translate.css"}
+{"version":3,"sources":["../clase5/sass/transform-translate.scss","transform-translate.css"],"names":[],"mappings":"AAAA;EACI,qBAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;ACCJ;;ADCA;EACI,qBAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;ACEJ;ADDI;EACI,iCAAA,EAAA,8CAAA;ACGR","file":"transform-translate.css"}
