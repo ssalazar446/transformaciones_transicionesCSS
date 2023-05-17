@@ -1,0 +1,9 @@
+div {
+  background: lightblue;
+  width: 150px;
+  height: 100px;
+  transform-origin: right top;
+}
+div:hover {
+  transform: rotate(90deg);
+}/*# sourceMappingURL=transform-origin.css.map */
