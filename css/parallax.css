@@ -34,4 +34,13 @@ body img {
   height: auto;
   transform: translateZ(2px) scale(0.75);
   transform-origin: top;
+}
+.parallax-container .image .card {
+  width: 80px;
+  height: 100px;
+  position: absolute;
+  /* Estilos propios de la carta */
+  background: white;
+  border-radius: 8px;
+  transform: rotate(-20deg);
 }/*# sourceMappingURL=parallax.css.map */

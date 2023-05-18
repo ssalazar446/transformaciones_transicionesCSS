@@ -1,0 +1,28 @@
+.container {
+  background: papayawhip;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.container:hover .box {
+  transform: scale(1.2);
+}
+.container .box {
+  background: pink;
+  width: 100px;
+  height: 100px;
+}
+.container .box1 {
+  background: lightcoral;
+  transition: transform 500ms;
+}
+.container .box2 {
+  background: salmon;
+  transition: transform 1s;
+}
+.container .box3 {
+  background: darksalmon;
+  transition: transform 1.5s;
+}/*# sourceMappingURL=transition-property-duration.css.map */

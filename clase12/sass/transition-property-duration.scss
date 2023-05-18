@@ -1,0 +1,31 @@
+.container {
+    background: papayawhip;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    &:hover .box{
+        transform: scale(1.2);
+    }
+    .box {
+        background: pink;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .box1 {
+        background: lightcoral;
+        transition: transform 500ms;
+        
+    }
+    .box2 {
+        background: salmon;
+        transition: transform 1s;
+        
+    }
+    .box3 {
+        background: darksalmon;
+        transition: transform 1.5s;
+    }
+}
