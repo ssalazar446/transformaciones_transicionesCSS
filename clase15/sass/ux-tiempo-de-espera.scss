@@ -8,12 +8,21 @@ a{
     text-decoration: none;
 }
 .nav{
-    &li{
-        &ul{
+    display: flex;
+    & li{
+        &:hover > ul{
+            opacity: 1;
+        }
+        & ul{
             display: block;
             opacity: 0;
             position: absolute;
-
+            transition: opacity 400ms;
+            transition-delay: 300ms;
+            & li {
+                position: relative;
+                right: -80px;
+            }
         }
     }
 }
