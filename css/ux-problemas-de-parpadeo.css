@@ -1,0 +1,14 @@
+div {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.container:hover .item {
+  transform: translateY(-10px);
+  background: palevioletred;
+}
+
+.item {
+  background: palegoldenrod;
+}/*# sourceMappingURL=ux-problemas-de-parpadeo.css.map */

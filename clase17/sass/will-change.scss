@@ -1,0 +1,20 @@
+button{
+    background: palegoldenrod;
+    width: 100px;
+    height: 30px;
+}
+.better{
+    will-change: transform;
+    transition: transform 500ms;
+    &:hover{
+        transform: translateY(5px);
+    }
+}
+.worst{
+    will-change: margin-top;
+    transition: margin-top 500ms;
+    &:hover{
+        margin-top: 5px;
+    }
+
+}
